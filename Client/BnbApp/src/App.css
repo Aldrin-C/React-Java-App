@@ -1,0 +1,286 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+/* Home */
+
+#searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  
+}
+
+.topDest{
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+#usDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#usDiv img{
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#usDiv p {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#jpDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#jpDiv img{
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#jpDiv p {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#outsideUsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+#outsideUsDiv img{
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#outUsDiv p {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+#searchBar input{
+  width: 80%;
+  height: 30px;
+  border-color: transparent;
+  text-align: center;
+}
+
+#searchBar img{
+  width: 20px;
+}
+
+#homeBg {
+  background-image: url("./assets/siargaoisland.jpg");
+  background-size: cover;
+  background-position:0%;
+  padding: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.signUpBtn {
+  background-color: darkkhaki;
+}
+
+.signInBtn {
+  background-color: steelblue;
+  color: white;
+}
+
+.logo {
+  font-family: cursive;
+}
+
+
+.searchBox {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.searchBtn {
+  background-color: burlywood;
+}
+
+@media only screen and (max-width: 300px) {
+  .searchBox {
+    width: 200px;
+  }
+}
+/* island map */
+.gMap {
+  width: auto;
+  padding: 16px;
+}
+
+.imgBorder {
+  border-radius: 10px;
+}
+
+.dashH5 {
+  font-family: sans-serif;
+}
+
+.navbar {
+  border-bottom: 5px solid darkgrey;
+}
+
+/* Register */
+.formCenter {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Create */
+#imgPreview {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+#imgPreview img{
+  width: 400px;
+  height: 300px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+
+
+/* Details */
+.detailsImg-sm {
+  width: 350px;
+  height: 200px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+
+
+[class *="detailsImg-sm"] {
+  float: left;
+  width: 350px;
+  height: 200px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:600px) {
+[class*="detailsImg-sm"] {
+  width: 100%;
+  }
+}
+
+.detailsImg-lg {
+  width: 700px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+}
+
+#detailsBg {
+  padding: 20px;
+}
+
+#reviews {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 85%;
+}
+
+#reviews h3{
+  font-family: cursive;
+  color: steelblue
+}
+
+#ratings {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 15%;
+  text-align: center;
+}
+
+#ratings h3{
+  font-family: cursive;
+  color: steelblue;
+}
+
+#amenities {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#amenities h3{
+  font-family: cursive;
+  color: steelblue;
+}
+
+#leaveReview {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#leaveReview h3{
+  font-family: cursive;
+  color: steelblue;
+}
+
+/* New Listing */
+.formStart {
+  width: 60%;
+}
